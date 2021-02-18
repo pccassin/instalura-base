@@ -26,6 +26,8 @@ const Container = styled.div`
       max-width: 1222px;
     `,
   })}
+
+  ${propToStyle("marginTop")}
 `;
 
 const Row = styled.div`
